@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+#calc{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: brown;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+#calc .operators{
+    padding: 30px;
+}
+
+#calc .my-result{
+    text-transform: uppercase;
+    margin-bottom: 10%;
+    
+}
